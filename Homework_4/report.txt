@@ -1,0 +1,3 @@
+It is essential to use the double quotes around the format string so that we can pass it to args(0) as a single argument, otherwise the characters read after a whitespace will represent another argument.
+
+If we have more than 64 cells we use the ArrayLife class, and if we have less than 64 cells we use the PackedLife class. The advantage of ArrayLife is that it doesn't have a limitation on the size of the grid, however it occupies more memory. PackedLife has a limitation on the size of the grid, but on the other hand it saves a lot of memory.
