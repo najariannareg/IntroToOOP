@@ -1,0 +1,4 @@
+Part 1
+1) Since the class World has an instance variable of class type Pattern, therefore World has a Pattern.
+   Abstract entities are highlighted italic letters.
+
